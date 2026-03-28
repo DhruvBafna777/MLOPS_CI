@@ -27,7 +27,7 @@ def test_power():
 
 
 def test_invalid_input():
-    with pytest.raises(typeError):
+    with pytest.raises(TypeError):
         square("string")
 
 
